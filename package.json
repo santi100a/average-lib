@@ -27,7 +27,7 @@
 		"remark-cli": "^11.0.0",
 		"remark-gfm": "^3.0.1",
 		"remark-validate-links": "^12.1.1",
-		"typescript": "^4.9.5"
+		"typescript": "^5.1.6"
 	},
 	"repository": {
 		"url": "https://github.com/santi100a/summation-lib",
