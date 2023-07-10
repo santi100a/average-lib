@@ -21,19 +21,13 @@
 ## Usage
 
 ```typescript
-import sum from '@santi100/average-lib'; // ESM
-const sum = require('@santi100/average-lib'); // CJS
+import average = require('@santi100/average-lib'); // TypeScript
+import average from '@santi100/average-lib'; // ESM
+const average = require('@santi100/average-lib'); // CJS
 
-// Example 1: Summing up numbers in an array
-const arr = [1, 2, 3, 4, 5];
-const result1 = sum(arr);
-console.log(result1); // Output: 15
+// Example usage of the average function
+const numbers: number[] = [1, 2, 3, 4, 5];
+const avg: number = average(numbers);
 
-// Example 2: Summing up numbers in a range with a step
-const fn = (n: number) => 1 / n;
-const start = 1;
-const end = 5;
-const step = 2;
-const result2 = sum(fn, start, end, step);
-console.log(result2); // Output: 1.5333333333333332
+console.log(`The average of ${numbers} is: ${avg}`);
 ```
