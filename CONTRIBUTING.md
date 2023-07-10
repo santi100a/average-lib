@@ -2,9 +2,9 @@
 
 ## How to contribute
 
-You can [file an issue](https://github.com/santi100a/summation-lib/issues)
-or a [pull request](https://github.com/santi100a/summation-lib/pulls).
-You can also [start a discussion](https://github.com/santi100a/summation-lib/discussions).
+You can [file an issue](https://github.com/santi100a/average-lib/issues)
+or a [pull request](https://github.com/santi100a/average-lib/pulls).
+You can also [start a discussion](https://github.com/santi100a/average-lib/discussions).
 
 ## Contribution rules
 

@@ -30,12 +30,12 @@ describe('average_function', () => {
     // Tests that the function returns NaN for an empty array
     it('test_empty_array', () => {
         const arr = [];
-        expect(isNaN(average(arr))).toBe(true);
+        expect(isNaN(average(arr))).toBeTruthy();
     });
 
     // Tests that the function returns NaN for an array of NaN values
     it('test_NaN_values', () => {
         const arr = Array(3).fill(NaN);
-        expect(isNaN(average(arr))).toBe(true);
+        expect(isNaN(average(arr))).toBeTruthy();
     });
 });
