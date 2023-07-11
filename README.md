@@ -1,4 +1,4 @@
-# Santi's Small Summation Library
+# Santi's Advanced Averaging Library
 
 [![Build Status](https://github.com/santi100a/average-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/santi100a/average-lib/actions)
 [![npm homepage](https://img.shields.io/npm/v/@santi100/average-lib)](https://npmjs.org/package/@santi100/average-lib)
